@@ -35,3 +35,5 @@ The actual solution is in the comments below.
 
 ## resources:
 + http://www.jb51.net/article/86876.htm
++ https://gist.github.com/thebucknerlife/10090014
++ https://www.railstutorial.org/book/basic_login
