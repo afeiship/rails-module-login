@@ -9,7 +9,7 @@ gem source -a https://gems.ruby-china.org
 
 ## initialize:
 ```bash
-cd ~/github/rails-module-login-out
+cd ~/github/rails-module-login
 rails new .
 ```
 
