@@ -1,5 +1,5 @@
-#rails-module-login-out
-> Rails module for login and logout.
+#rails-module-login
+> Rails module for login.
 
 ## replace gem source
 ```bash
