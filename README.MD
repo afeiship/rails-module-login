@@ -1,5 +1,5 @@
-#rails-module-login
-> Rails module for login.
+#rails-module-signin
+> Rails module for sign in.
 
 ## replace gem source
 ```bash
@@ -9,7 +9,7 @@ gem source -a https://gems.ruby-china.org
 
 ## initialize:
 ```bash
-cd ~/github/rails-module-login
+cd ~/github/rails-module-signin
 rails new .
 ```
 
