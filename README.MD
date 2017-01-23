@@ -11,6 +11,12 @@ gem source -a https://gems.ruby-china.org
 ```bash
 cd ~/github/rails-module-signin
 rails new .
+
+rails g model user name:string email:string password_digest:string
+rake db:migrate
+
+rails g controller users login
+
 ```
 
 ## some errors:
