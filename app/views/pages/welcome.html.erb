@@ -1,0 +1,18 @@
+<h1>
+Welcome!
+</h1>
+<p>
+Please login:
+</p>
+<p>
+    <a href="/register">Register</a>
+</p>
+<p>
+    <% if current_user%>
+        <a href="#"></a>
+        <%= link_to current_user.name, '#' %>
+        <%= link_to "logout", '#' %>
+    <% else %>
+        <a href="/login">Login</a>
+    <% end %>
+</p>
