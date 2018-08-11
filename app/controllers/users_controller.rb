@@ -38,6 +38,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def logout
+    session[:user_id] = nil;
+    redirect_to :root
+  end
+
   private
     # Use `params.require(:user).permit!` but not:'password/password_confirmation OR `password_digest`'
     def user_params
